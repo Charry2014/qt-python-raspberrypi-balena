@@ -17,8 +17,7 @@ rm -Rf balena-vnc-example
 ./vnc-app/Requirements.txt
 
 ## An apt Requirement.apt
-
-
+./vnc-app/Requirements.apt
 
 
 # Edit Dockerfile.template
@@ -28,12 +27,12 @@ See documentation on [Python venv in Docker](https://pythonspeed.com/articles/ac
 
 Log in to Balena
 ```balena login
-balena push Elgato1
+balena push MyApp
 ```
 
 
 
-
+help("modules qt")
 
 /opt/venv/bin/
 environment=PATH="/opt/venv/bin:$PATH"
